@@ -1,0 +1,53 @@
+.chart-title {
+  color: black;
+  padding-top: 1rem;
+  text-align: center;
+}
+.back-btn {
+  padding: 0.5rem 1rem;
+  color: white;
+  background: #023ea8;
+  border: none;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+.tree-container {
+  width: 100%;
+  overflow: auto;
+}
+.userNode {
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 150px;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  color: black;
+  border-radius: 5px;
+}
+.childNode {
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  color: black;
+  border-radius: 5px;
+}
+.endNode {
+  color: white;
+}
+
+.node__root > circle {
+  fill: red;
+}
+
+.node__branch > circle {
+  fill: yellow;
+}
+
+.node__leaf > circle {
+  fill: green;
+}
